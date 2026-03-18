@@ -18,7 +18,7 @@
     "bbg_link": "https://boardgamegeek.com/boardgame/230802/azul",
     "has_explanation_link": true,
     "explanation_link": "https://youtu.be/193R2h2M3Yk?si=9KEGpuX8TdSIfdSy",
-    "has_rules_guide": true,
-    "rules_guide_link": "https://cdn.1j1ju.com/medias/03/14/fd-azul-rulebook.pdf"
+    "has_rules_guide": flase,
+    "rules_guide_link": ""
   }
 ]
