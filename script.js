@@ -1,4 +1,4 @@
-const JSON_URL = 'https://huhumashat0.github.io/boardGame/games.json'; 
+const JSON_URL = 'https://huhumashat0.github.io/boardGame/games2.json'; 
 let gamesData = [];
 
 async function fetchGames() {
