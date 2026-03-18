@@ -1,0 +1,33 @@
+/* تنسيق صورة غلاف اللعبة لتكون بحجم موحد */
+.game-img {
+    height: 200px; /* صغرنا الصورة قليلاً لتناسب التصميم الجديد */
+    object-fit: cover;
+    border-bottom: 3px solid #0d6efd;
+}
+
+/* تحسين مظهر البطاقات وتغيير شكل الماوس */
+.game-card {
+    cursor: pointer; /* شكل اليد للدلالة على إمكانية النقر */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* تنسيق زر المشاركة العائم على الصورة */
+.share-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* ليكون في الزاوية اليسرى العلوية للبطاقة */
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background 0.2s;
+}
+
+.share-btn:hover {
+    background-color: #0d6efd;
+    color: white !important;
+}
